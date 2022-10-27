@@ -8,16 +8,12 @@
 
 #  AB = √(xb - xa)2 + (yb - ya)2
 
-print('Введите x точки А: ');
-xa = int(input())
+xa = int(input('Введите x точки А: '))
 
-print('Введите y точки А: ');
-ya = int(input())
+ya = int(input('Введите y точки А: '))
 
-print('Введите x точки В: ');
-xb = int(input())
+xb = int(input('Введите x точки В: '))
 
-print('Введите y точки В: ');
-yb = int(input())
+yb = int(input('Введите y точки В: '))
 
 print (round(((((xb - xa) ** 2) + ((yb - ya) ** 2)) ** 0.5), 2))

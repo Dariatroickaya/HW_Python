@@ -9,13 +9,12 @@
 # - 1 -> нет
 
 
-print('Введите a');
-a = int(input())
+a = int(input('Введите a: '))
 
-if (a >= 1 and a <= 5):
+if a >= 1 and a <= 5:
     print('-> Нет')
 
-elif (a == 6 or a ==7):
+elif a == 6 or a ==7:
     print('-> Да')
 
 else:

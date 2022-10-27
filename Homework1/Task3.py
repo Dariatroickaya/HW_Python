@@ -11,25 +11,23 @@
 
 
 
-print('Введите x: ');
-x = int(input())
+x = int(input('Введите x: '))
 
-print('Введите y: ');
-y = int(input())
+y = int(input('Введите y: '))
 
-if (x > 0 and y > 0):
+if x > 0 and y > 0:
     print('x', '=', x, 'y', '=', y, '-> 1 четверть')
 
-elif (x < 0 and y > 0):
+elif x < 0 and y > 0:
     print('x', '=', x, 'y', '=', y, '-> 2 четверть')
 
-elif (x < 0 and y < 0):
+elif x < 0 and y < 0:
     print('x', '=', x, 'y', '=', y, '-> 3 четверть')
 
-elif (x > 0 and y < 0):
+elif x > 0 and y < 0:
     print('x', '=', x, 'y', '=', y, '-> 4 четверть')  
 
-elif (x == 0 and y == 0):
+elif x == 0 and y == 0:
     print('x', '=', x, 'y', '=', y, '-> Это центр координатной плоскости')    
 
 else:

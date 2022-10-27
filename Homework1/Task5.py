@@ -8,6 +8,9 @@
 
 #  AB = √(xb - xa)2 + (yb - ya)2
 
+
+# ВАРИАНТ 1
+
 xa = int(input('Введите x точки А: '))
 
 ya = int(input('Введите y точки А: '))
@@ -17,3 +20,20 @@ xb = int(input('Введите x точки В: '))
 yb = int(input('Введите y точки В: '))
 
 print (round(((((xb - xa) ** 2) + ((yb - ya) ** 2)) ** 0.5), 2))
+
+
+
+
+# ВАРИАНТ 2
+
+import math
+
+xa = int(input('Введите x точки А: '))
+
+ya = int(input('Введите y точки А: '))
+
+xb = int(input('Введите x точки В: '))
+
+yb = int(input('Введите y точки В: '))
+
+print('AB =', round((math.sqrt(((xb - xa) ** 2) + ((yb - ya) ** 2))), 2))

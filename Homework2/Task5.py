@@ -2,10 +2,10 @@
 
 import random
 
-list = []
+lst = []
 for i in range(10):
-    list.append(random.randint(0, 9)) 
-print(list)
+    lst.append(random.randint(0, 9)) 
+print(lst)
 
-random.shuffle(list)
-print(list) 
+random.shuffle(lst)
+print(lst) 
